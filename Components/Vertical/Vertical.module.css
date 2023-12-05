@@ -1,0 +1,126 @@
+.bg{
+    background-image: url("/src/Assets/vbg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* .drone1{
+    height: 200px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+.first h5{
+    font-family: 'gotham';
+    font-size: 30px;
+}
+.first{
+    height: 300vh;
+    width: 28%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 600px;
+    text-align: end;   
+}
+.third h5{
+    font-family: 'gotham';
+    font-size: 30px;
+    /* width: 600px; */
+}
+.third{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: end; 
+    row-gap: 600px;  
+    height: 300vh;
+    width: 45%;
+}
+
+.secnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 100px;
+    text-align: end; 
+    height: 300vh;
+}
+.secnd img{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.dba{
+    margin-right:100px;
+}
+.overall{
+    display: flex;
+    flex-direction: row;
+}
+.animation{
+    width: 350px;
+    margin-left: 50% !important;
+}
+@media screen and (min-width:320px) and (max-width:375px){
+    .bg{
+        background-image: url("/src/Assets/verticalbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200vh;
+        /* height: 200%; */
+    }
+}
+@media screen and (min-width:375px) and (max-width:420px){
+    .bg{
+        background-image: url("/src/Assets/verticalbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 230vh;
+        /* height: 200%; */
+    }
+}
+@media screen and (min-width:420px) and (max-width:768px){
+    .bg{
+        background-image: url("/src/Assets/verticalbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260vh;
+        /* height: 200%; */
+    }
+}
+@media screen and (min-width:768px) and (max-width:1025px){
+    .bg{
+        background-image: url("/src/Assets/verticalbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 420vh;
+        height: 500vw;
+        /* height: 200%; */
+    }
+    .first{
+        margin-top: 45%;
+        row-gap: 60%;
+        
+    }
+    .secnd{
+        margin-top: 30%;
+        row-gap: 20%;
+        margin-left: 10%;
+    }
+    .third{
+        margin-top: 20%;
+        row-gap: 50%;
+    }
+}
+/* @media screen and (min-width:768px) and (max-width:1025px){
+    .bg{
+        background-image: url("/src/Assets/verticalbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200vh;
+        height: 200%; 
+    }
+} */

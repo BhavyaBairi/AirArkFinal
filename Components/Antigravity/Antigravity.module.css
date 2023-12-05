@@ -1,0 +1,318 @@
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+}
+.alert{
+    font-family: 'gotham';
+}
+.bg p {
+  font-family: 'gotham1';
+  font-size: 18px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.mask1 {
+    -webkit-mask-image: url("/src/Assets/airarknn.png");
+    mask-image: url("/src/Assets/airarknn.png");
+    -webkit-mask-size: 80%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    overflow-y: hidden;
+
+  }
+.airark{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 300px;
+    overflow-x: hidden;
+   position: relative;
+   margin-top: 200px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   position: absolute;
+   margin-left: 730px;
+   height: 400px;
+   margin-top: -150px;
+}
+.animation{
+    height: 200px;
+    position: absolute;
+}
+.animation img{
+    height: 100px;
+    margin-left: 730px;
+    margin-top: -220px;
+}
+.airarkpg{
+  
+    position: relative;
+    z-index: 99;
+}
+.build{
+    margin-top: -900px;
+}
+.antigravity{
+    background-color:#00132D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+    margin-top: -380px;
+}
+.antigravity h1{
+    color: white;
+    font-family: "gotham";
+}
+.antigravity p{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+/* .image1{
+    text-align: start;
+    
+}
+.image2{
+   margin-left: 25%;
+}
+.image3{
+    margin-left: 10%;
+    margin-top: 20%;
+    height: 40px;
+}
+.image4{
+    margin-left: 10%;
+}
+.bubble{
+    position: absolute;
+    height: 500px;
+    left: 30%;
+    top: 50%;
+}
+.bubblebg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+/* .drone{
+    position: relative;
+    left: 30%;
+    margin-top: -350px;
+} */
+.buildimg{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    opacity: 0.4;
+}
+.bg{
+    background-color: #00132D;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    z-index: -1;
+    padding-top: 150px;
+}
+.bg h1{
+    color: #fff;
+    font-family: "gotham";
+    margin-top: 10%;
+}
+
+.drones{
+    position: relative;
+    opacity: 0.4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.drone3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    animation: moveright 10s forwards infinite;
+  }
+  
+  @keyframes moveright {
+    0% {
+      right: 0;
+    }
+    50% {
+      right: 50%;
+    }
+    100% {
+      right: 96%;
+    }
+  }
+.drone2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    animation: move 15s forwards infinite;
+  }
+  @keyframes move {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 96%;
+    }
+  }
+  
+.drone4 {
+    position: absolute;
+    top: 50px;
+    animation: moveup 10s ease-in-out infinite;
+  }
+  
+  @keyframes moveup {
+    from {
+      top: 500px;
+    }
+    to {
+      top: 50px;
+    }
+  }
+  
+
+  
+.bubble{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+.drone{
+    position: absolute;
+    left: 20%;
+    margin-top: 200px;
+}
+.bubbleimg{
+    transition: transform 1s;
+}
+.bubbleimg:hover{
+    transform: scale(1.2);
+}
+@media screen and (min-width:320px) and (max-width:375px){
+  .airarkpg{
+    width: 200vh;
+    position: relative;
+  }
+  .animation{
+    position: absolute;
+    margin-left: -80px;
+  }
+  .animation img{
+    width: 80px;
+    height: 90px;
+  }
+  .arrow{
+    margin-left: 650px;
+    height: 300px;
+  }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+  .airarkpg{
+    width: 235vh;
+    position: relative;
+  }
+  .animation{
+    position: absolute;
+    margin-left: -80px;
+  }
+  .animation img{
+    width: 80px;
+    height: 90px;
+  }
+  .arrow{
+    margin-left: 650px;
+    height: 300px;
+  }
+}
+@media screen and (min-width:425px) and (max-width:786px){
+  .airarkpg{
+    width: 267vh;
+    position: relative;
+  }
+  .animation{
+    position: absolute;
+    margin-left: -80px;
+  }
+  .animation img{
+    width: 80px;
+    height: 90px;
+  }
+  .arrow{
+    margin-left: 650px;
+    height: 300px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .airarkpg{
+    width: 420vh;
+    position: relative;
+  }
+  .animation{
+    position: absolute;
+    margin-left: 17%;
+  }
+  .animation img{
+    width: 150px;
+    height: 150px;
+  }
+  .arrow{
+    margin-left: 44%;
+    height: 700px;
+    margin-top: -6%;
+  }
+  .bubble{
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .build{
+    margin-top: -60%;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1100px) {
+  .airarkpg{
+    width: 562vh;
+    position: relative;
+  }
+  .animation{
+    position: absolute;
+    margin-left: 25%;
+  }
+  .animation img{
+    width: 150px;
+    height: 150px;
+  }
+  .arrow{
+    margin-left: 45%;
+    height: 700px;
+    margin-top: -4%;
+  }
+  .bubble{
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+  .build{
+    margin-top: -55%;
+  }
+}

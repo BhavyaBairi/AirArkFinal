@@ -1,0 +1,145 @@
+.arrow{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.arrowimg{
+    height: 200px;
+}
+.heading{
+    font-size: 85px;
+    text-align: center;
+    margin: 100px;
+    font-weight: bold;
+}
+.jetimg{
+    width: 500px;
+}
+.animationcontainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+.arrowres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+  
+.image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image.hidden {
+    opacity: 0;
+  }
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.animation{
+    width: 200px;
+    height:50px;
+    background-color: brown;
+}
+.scroll p{
+    margin-top: -10%;
+}
+@media screen and (min-width:320px) and (max-width:420px){
+    .arrow1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 200vh;
+        
+
+    }
+    .heading{
+        width: 180vh;
+    }
+    .scroll{
+        text-align: center;
+        width:200vh;
+       
+
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .arrow{
+        margin-left: 50%;
+    }
+}
+@media screen and (min-width:425px) and (max-width:520px){
+    .arrow{
+        margin-left: 50%;
+    }
+    .arrow1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 200vh;
+      
+
+    }
+    .heading{
+        width: 180vh;
+        
+
+    }
+    .scroll{
+        text-align: center;
+        width:200vh;
+        
+
+    }
+}
+@media screen and (min-width:520px) and (max-width:786px){
+    .arrow1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 200vh;
+       
+
+    }
+    .heading{
+        
+        width: 180vh;
+    }
+    .scroll{
+        text-align: center;
+        width:200vh;
+       
+
+    }
+}
+@media screen and (min-width:768px) and (max-width:1025px){
+    .arrow{
+        margin-left: 100%;
+    }
+    .arrow1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 200vh;
+    }
+    .heading{
+        width: 150vh;
+        
+    }
+    .scroll{
+        text-align: center;
+        width:200vh;
+    }
+}
